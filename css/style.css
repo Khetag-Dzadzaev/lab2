@@ -1,0 +1,18 @@
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+.headerpred{
+}
+
+.container{
+    max-width: 1000px;
+    min-height: 44px;
+    margin: 0 auto;
+}
+
+.headerpredinfo{
+    display: flex;
+    justify-content: space-between;
+}

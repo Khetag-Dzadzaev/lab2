@@ -15,4 +15,19 @@ body{
 .headerpredinfo{
     display: flex;
     justify-content: space-between;
+    margin: 14px 0px;
+}
+
+.tel::before{
+    content: url(/img/eva_phone-outline.svg);
+    position: relative;
+    top: 4px;
+    right: 15px;
+}
+
+.log::before{
+    content: url(/img/ic_sharp-log-in.svg);
+    position: relative;
+    top: 4px;
+    right: 10px;
 }

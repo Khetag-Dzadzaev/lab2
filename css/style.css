@@ -1,6 +1,7 @@
 body{
     background-color: #000;
     color: #fff;
+    width: 1340px;
 }
 
 .headerpred{
@@ -16,6 +17,11 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 14px 0px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'PT Sans';
+    color: #969696;
 }
 
 .tel::before{
@@ -30,4 +36,65 @@ body{
     position: relative;
     top: 4px;
     right: 10px;
+}
+
+.header{
+  height: 80px;
+  background: #0F0F0F;
+}
+
+.headerinfo{
+  width: 1110px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_blocks{
+  width: 136px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.likes{
+  background: #1F1F1F;
+}
+
+.name_company{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  font-family: 'Post No Bills Jaffna';
+}
+
+.about_text_active{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-family: 'PT Sans';
+  color: #FFFFFF;
+}
+
+.about_text{
+  font-style: normal;
+  color: #969696;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-family: 'PT Sans';
+}
+
+.basket{
+  margin: 0 40px;
 }

@@ -4,9 +4,6 @@ body{
 
 }
 
-.headerpred{
-}
-
 .container{
     max-width: 1000px;
     min-height: 44px;
@@ -21,6 +18,7 @@ body{
     font-size: 12px;
     line-height: 16px;
     font-family: 'PT Sans';
+    background: #000;
     color: #969696;
 }
 
@@ -83,6 +81,7 @@ body{
   text-transform: uppercase;
   font-family: 'PT Sans';
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .about_text{
@@ -93,8 +92,221 @@ body{
   line-height: 18px;
   text-transform: uppercase;
   font-family: 'PT Sans';
+  text-decoration: none;
 }
 
 .basket{
   margin: 0 40px;
 }
+
+.title_page{
+  position: relative;
+  width: 1345px;
+  height: 633px;
+}
+
+.background_img{
+  position: absolute;
+  left: 0px;
+  width: 1345px;
+  height: 633px;
+  background-image: url(/img/Rectangle\ 3.png);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  width: 320px;
+  height: 320px;
+  border: solid 4px #fff;
+}
+
+.title_text{
+  margin-top: 93px;
+  margin-bottom: 4px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Post No Bills Jaffna';
+}
+
+.bottom_line{
+  width: 179px;
+  border: 2px solid #FFFFFF;
+  margin-bottom: 7px;
+  position: relative;
+  left: 67px;
+}
+
+.title_text2{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'PT Sans';
+  color: #FFFFFF;
+}
+
+.title_text_box{
+  width: 1300px;
+  display: flex;
+  justify-content: center;
+}
+
+.title_info{
+  margin-top: -74px;
+width: 730px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.info{
+  width: 1000px;
+}
+
+.info_settings{
+  display: flex;
+  gap: 55px;
+}
+
+.new_season{
+  margin-top:93px;
+}
+
+.new_season_title_text{
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 50px;
+}
+
+.new_season_title_line{
+  width: 120px;
+  border: solid 1px #ffff;
+  margin-left: 305px;
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+.new_season_title_products{
+  display: flex;
+  gap: 50px;
+  margin-left: 55px;
+}
+
+.new_season_products{
+  width: 178px;
+  height: 403px;
+}
+
+.img_box{
+  display: flex;
+  width: 178px;
+  height: 323px;
+  background-color: #191b1c;
+  justify-content: center;
+  align-items: center;
+}
+
+.products_name{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  font-family: 'Playfair Display';
+}
+
+.new_colection{
+  width: 600px;
+  height: 720px;
+}
+
+.new_colection_background_img{
+  background-image: url(/img/Rectangle\ 8.png);
+  width: 600px;
+  height: 720px;
+  position: relative;
+}
+
+.new_colection_info{
+  position: absolute;
+  top: 475px;
+  bottom: 100px;
+  left: 194px;
+  right: 154px;
+}
+
+.new_colection_text{
+  margin-left: -90px;
+  width: 400px;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Playfair Display';
+}
+
+.new_colection_line{
+  width: 82.5px;
+  border: solid 1px #fff;
+  margin-left: 57px;
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+.new_colection_button{
+  padding: 12px 28px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'PT Sans';
+  margin-left: 27px;
+  border: solid 1px #fff;
+  text-decoration: none;
+}
+
+.colection_2018_flex{
+  display: flex;
+}
+
+.colection_2018_img{
+  margin-left: -150px;
+}
+
+.colection_2018_info{
+  width: 714.27px;
+  height: 597.11px;
+}
+
+.colection_2018_info_title{
+  margin-top: 100px;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Playfair Display';
+}
+

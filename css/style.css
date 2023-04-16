@@ -32,8 +32,13 @@ body{
 .log::before{
     content: url(/img/ic_sharp-log-in.svg);
     position: relative;
-    top: 4px;
+    top: 3px;
     right: 10px;
+}
+
+.log{
+  text-decoration: none;
+  color: #969696;
 }
 
 .header{
@@ -289,19 +294,70 @@ color: #FFFFFF;
 
 .colection_2018_flex{
   display: flex;
+  gap: 200px;
 }
 
 .colection_2018_img{
-  margin-left: -150px;
+  margin-left: -175px;
 }
 
 .colection_2018_info{
-  width: 714.27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   height: 597.11px;
 }
 
 .colection_2018_info_title{
-  margin-top: 100px;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Playfair Display';
+  margin-bottom: -140px;
+}
+
+.colection_2018_info_line{
+  width: 83px;
+  border:solid 1px #fff;
+}
+
+.colection_2018_info_text{
+  margin-top: -85px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'PT Sans';
+}
+
+.colection_2018_info_button{
+  margin-top: -100px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: 'PT Sans';
+  color: #FFFFFF;
+  border: solid 1px #FFF;
+  padding:12px 28px ;
+}
+
+.new_arrivals{
+  margin-top: 120px;
+  margin-bottom: 150px;
+}
+
+.new_arrivals_title{
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -310,3 +366,194 @@ color: #FFFFFF;
   font-family: 'Playfair Display';
 }
 
+.new_arrivals_line_flex{
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.new_arrivals_line{
+  width: 83px;
+  border: 1px solid #fff;
+}
+
+.new_arrivals_products_block{
+  width: 760px;
+  margin-left: 120px;
+}
+
+.new_arrivals_products{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.our_brands{
+  padding-top: 60px;
+  background-color: rgba(15, 15, 15, 1);
+}
+
+.our_brands_title{
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Playfair Display';
+}
+
+.our_brands_flex_line{
+  display: flex;
+  justify-content: center;
+}
+
+.our_brands_line{
+  width: 82px;
+  border: solid 1px #FFF;
+  margin: 40px 0;
+}
+
+.our_brands__brands{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.footerpred{
+}
+
+.footerpred_background_img{
+  background-image: url(/img/Rectangle\ 15.png);
+  height: 400px;
+  width: 1370px;
+  margin-left: -200px;
+}
+
+.footerpred_info{
+  display: flex;
+  margin-left: 253px;
+}
+
+.about_the_store_title{
+  margin-top: 80px;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Playfair Display';
+}
+
+.about_the_store_text{
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  font-family: 'PT Sans';
+  width: 340px;
+}
+
+.categories{
+  margin-left: 30px;
+}
+
+.categories_title{
+  margin-top: 80px;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Playfair Display';
+}
+
+.categories_button{
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 300px;
+}
+
+.categories_button_text{
+  padding: 10px 20px;
+  color:#D0D0D0;
+  background-color: #0F0F0F;
+}
+
+.mailing_title{
+  margin-top: 80px;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Playfair Display';
+}
+
+.mailing_text{
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  font-family: 'PT Sans';
+  width: 240px;
+}
+
+.mailing_email_and_button{
+  margin-top: 40px;
+  position: relative;
+}
+
+.mailing_email{
+  background: rgba(255, 255, 255, 0.4);
+  border: 0;
+  width: 144.23px;
+  height: 41.8px;
+  color: #969696;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  font-family: 'PT Sans';
+}
+
+.mailing_email_button{
+  position: absolute;
+  height: 44px;
+  background: #0F0F0F;
+  width: 96.15px;
+  border: 0;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  font-family: 'PT Sans';
+}
+
+.footer_text_1{
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #D0D0D0;
+  font-family: 'PT Sans';
+  width: 100px;
+}
+
+.footer_text_2{
+  margin-top: -25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #D0D0D0;
+  font-family: 'PT Sans';
+}

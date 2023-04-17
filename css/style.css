@@ -113,7 +113,7 @@ body{
 .background_img{
   position: absolute;
   left: 0px;
-  width: 1345px;
+  width: 1365px;
   height: 633px;
   background-image: url(/img/Rectangle\ 3.png);
   display: flex;
@@ -247,6 +247,7 @@ color: #FFFFFF;
   width: 600px;
   height: 720px;
   position: relative;
+  margin-left: 20px;
 }
 
 .new_colection_info{
@@ -298,7 +299,7 @@ color: #FFFFFF;
 }
 
 .colection_2018_img{
-  margin-left: -175px;
+  margin-left: -185px;
 }
 
 .colection_2018_info{
